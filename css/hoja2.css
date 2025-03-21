@@ -1,0 +1,22 @@
+body{
+    background-color:#ECAFAF;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FAB6B6;
+    color: ;
+}
+.logo{
+    width: 150px;
+}
+nav img{
+    width: 150px;
+}
+a{
+    text-decoration: none;
+}
+div{
+    background-color: ;
+}
