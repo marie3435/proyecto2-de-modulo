@@ -1,27 +1,49 @@
 body{
     background-color:#ECAFAF;
-    background-color: #ECAFAF;
 }
 nav{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #FAB6B6;
     color: #FAB6B6;
     padding: 35px;
 }
+nav img{
+border-radius: 45%;
+}
+nav li{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    font-size: 20px;
+  }
+  nav a{
+    text-decoration: none;
+    color: black;
+  }
+  header img {
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav a:hover{
+    background-color: lightcoral;
+    color: black;
+    transition: 0.3s;
+
+  }
 .logo{
-    width: 150px;
+    width: 120px;
+    border-radius: 35%;
+    display: flex;
 }
 .carrito{
     width: 50px;
     height: 45px;
 }
-.app{ 
-    width: 150px;
-    margin-left: 185cm;
-}
+
 nav img{
     width: 150px;
 }
@@ -29,7 +51,7 @@ a{
     text-decoration: none;
 }
 div{
-    background-color: rgb(199, 94, 114);
+    background-color: rgb(230, 141, 157);
     background-color: #FAB6B6;
 }
 
@@ -80,3 +102,30 @@ div{
 .card-content{
     padding: 10px;
 }
+.icons{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    width: ;
+}
+/*Para telefonos o celulares*/
+@media (width <= 480px) {
+    nav{
+        flex-direction: column;
+    }
+    }
+    @media (width <= 768px) {
+        nav{
+            flex-direction: column;
+        }
+        }
+        @media (width <= 1024px) {
+            nav{
+                flex-direction: column;
+            }
+            }
+            @media (width <= 1200px) {
+                nav{
+                    flex-direction: column;
+                }
+                }

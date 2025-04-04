@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(233, 178, 178);
+     
+    }
+    .icon{
+      width: 45px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+    header{
+      text-align: center;
+     
+    }
+    .logoo{
+        width: 100px;
+        border-radius: 35px;
+    }
+    header h1{
+      text-align: left;
+      padding: 15px;
+     
+    }
+    header img{
+      text-align: center;
+      width: 50px;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      border-radius: 10%;
+    }
+     
+     
+    nav li{
+      display: inline;
+      padding: 80px;
+      font-size: 20px;
+    }
+    nav a{
+      text-decoration: none;
+      color: black;
+    }
+    nav a:hover{
+      background-color: lightcoral;
+      color: black;
+      transition: 0.3s;
+    }
+    /*Para telefonos o celulares*/
+    @media (width <= 480px) {
+        nav{
+            flex-direction: column;
+        }
+        }
+        @media (width <= 768px) {
+            nav{
+                flex-direction: column;
+            }
+            }
+            @media (width <= 1024px) {
+                nav{
+                    flex-direction: column;
+                }
+                }
+                @media (width <= 1200px) {
+                    nav{
+                        flex-direction: column;
+                    }
+                    }
+    p{
+      font-size: 15px;
+    line-height: 1.4;
+    }
+     
+    footer{
+      background-color: rgb(247, 200, 223);
+    }
+    .iconss{
+      display: flex;
+      justify-content: end;
+    }
+    
+    section img{
+        display: flex;
+        justify-content: space-evenly;
+    width: 95%;
+    margin-top: 50px;
+    border-radius: 5px;
+
+    }
+     
+     
